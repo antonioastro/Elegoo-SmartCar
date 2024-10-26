@@ -5,14 +5,21 @@ This is NOT yet the final product, but now has its own repository due to my plan
 
 This does not yet have the full functionality of the latest version in my Elegoo-SmartCar-Dev repository while I continue to learn how to properly use header files in C++
 
-Car_separate_files.ino - is the main ino file to open and compile in Arduino \n
-carFunctions.cpp - contains all of the core functions for the car that are needed regardless of the mode (remote control IR or WiFi, or Autopilot, or LineTrack) \n
-remoteControl.cpp - contains all of the functions needed for remote control, either IR or WiFi. Currently the *main* function for IRcontrol is in the main ino file until I can get this working as intended. \n
-remoteHexValues.h - contains the hex values for the keys on my remote. \n
-carMain.h - the main header file for the program that links all of the files together. It declares all of the functions from all files and any global variables. \n
+Car_separate_files.ino - is the main ino file to open and compile in Arduino 
 
-Coming soon \n
-carCosmetics.cpp - contains functions for controlling the onboard RGB lighting \n
-autopilot.cpp - contains all functions needed only for the object avoidance and automatic patrol of the car \n
+carFunctions.cpp - contains all of the core functions for the car that are needed regardless of the mode (remote control IR or WiFi, or Autopilot, or LineTrack) 
+
+remoteControl.cpp - contains all of the functions needed for remote control, either IR or WiFi. Currently the *main* function for IRcontrol is in the main ino file until I can get this working as intended. 
+
+remoteHexValues.h - contains the hex values for the keys on my remote. 
+
+carMain.h - the main header file for the program that links all of the files together. It declares all of the functions from all files and any global variables. 
+
+
+##Coming soon
+carCosmetics.cpp - contains functions for controlling the onboard RGB lighting 
+
+autopilot.cpp - contains all functions needed only for the object avoidance and automatic patrol of the car 
+
 
 All files contain some comments but aren't necessarily complete or may not make sense to you. Please start a discussion if you have any questions about my program!
