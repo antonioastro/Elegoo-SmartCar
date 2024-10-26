@@ -1,0 +1,24 @@
+/*Declare all the hex values from the remote used in the main programme*/
+const int UP = 0x8A774570;	//forwards
+const int LEFT = 0xAC390F87;	//left
+const int RIGHT = 0xAB390DF4;	//right
+const int DOWN = 0x1D407D2D;	//reverse
+const int CHANNEL_UP = 0xB6C3F7B0;	//SpeedUp
+const int CHANNEL_DOWN = 0xAACAD56D;	//SpeedDown
+const int PAUSE	= 0xC2ECF552;
+const int PLAY = 0xD621733;
+const int NUMPAD_1 = 0x4A19F6EF;
+const int NUMPAD_2 = 0x211777CB;
+const int NUMPAD_3 = 0x2217795E;
+const int NUMPAD_4 = 0x9E87E040;
+const int NUMPAD_5 = 0x62850C18;
+const int NUMPAD_6 = 0xE3D3C987;
+const int NUMPAD_7 = 0xE2D3C7F2;
+const int NUMPAD_8 = 0x8B13B370;
+const int NUMPAD_9 = 0x79FBB2D;
+const int NUMPAD_0 = 0xBB2AC05E;
+const int SELECT = 0x70AF0C34; //Stop
+const int DBL_ARROW_RGHT = 0x661B0FE;
+const int DBL_ARROW_LFT = 0x22C77576;
+const int BACKUP = 0xF24BFC4; //Back-up
+const int HELP = 0x9F1D53AD; //Reset_speed
