@@ -1,4 +1,4 @@
-#include "carMain.h"
+#include "carMain.hpp"
 
 /* This file contains the basic functions of the car used across all modes
 
@@ -16,7 +16,7 @@ RIGHT   LOW       HIGH
 
 */
 
-float MotorSpeed = 75; //MotorSpeed is accessed only within carFunctions.cpp, so needs to be defined as static.
+float MotorSpeed = 75; //MotorSpeed is accessed only within carFunctions.cpp
 static float TurnSpeed; //TurnSpeed is only used in turn_left or _right, and is intended to apply a limit to the rate of rotation for ease of use.
 static float SaveMotorSpeed; //To clone MotorSpeed when it must be overwritten.
 
